@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="calculate.js"></script>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Taxulator</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                   
+                    <li><a href="#">CALCULATE</a></li>
+                    <li><a href="Taxation.html">TAXATION</a></li>
+                    <li><a href="News.html">NEWS</a></li>
+                    <button class="btnn"><a href="login.html">Logout</a></button>
+                </ul>
+            </div>
+
+          
+
+            <form id="Form1">
+                <div class="form"  >
+                    <h2>CALCULATE YOUR TAX HERE</h2>
+                    
+                    <input  placeholder="Your full name" id="name" aria-label="First name">
+                    
+                    <input type="number" id="income" placeholder="Annual income" aria-label="Last name">
+                    <div class="select">
+                        <input type="date" class="custom-select my-2 mr-sm-4 mt-3" id="dat" placeholder="Enter date">
+
+                    </div>
+                      </select>
+                    
+                      <div class="select">
+                        <select class="custom-select my-2 mr-sm-4 mt-3" id="marittal">
+                            <option selected value="Individual">Unmarried</option>
+                            <option value="Married">Married</option>
+                           
+
+                    </div>
+                   
+    
+                        
+
+                      </select><br>
+                    
+                    
+                    
+                      <input type="number" id="taxA" placeholder="Taxed amount" aria-label="First name">
+                    
+                      <input id="rate" placeholder="Tax rate" aria-label="Last name">
+
+                      <input type="number" id="sat" placeholder="Salary After tax" >
+                      <div class="menuu">
+                        <ul>
+                            
+                            <button class="btnnn" onclick="myFunction();Taxcalculate()" id= calculate><a href="#">Calculate</a></button>
+                        </ul>
+                    </div>
+                    <div class="menuuu">
+                        <ul>
+                            
+                            <button class="btnnnn" onclick="AllReset()" id="Reset" ><a href="#">Reset</a></button>
+                        </ul>
+                    </div>
+
+                </div>
+                
+                    </div>
+                </div>
+        </div>
+    </div>
+</form>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
